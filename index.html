@@ -1,0 +1,434 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#fff5f7">
+    <meta name="description" content="Um pequeno universo feito especialmente para nós.">
+
+    <title>Our Little Universe ♡</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Elementos decorativos -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <!-- Música ambiente -->
+    <audio id="backgroundMusic" loop preload="auto">
+        <source src="assets/music/background.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Tela inicial -->
+    <section class="welcome" id="welcome">
+
+        <div class="welcome-content">
+
+            <span class="small-label">A LITTLE GIFT FOR YOU</span>
+
+            <div class="welcome-heart">♡</div>
+
+            <h1>
+                Our Little<br>
+                <span>Universe</span>
+            </h1>
+
+            <p>
+                Dois meses de uma história que eu quero
+                continuar escrevendo com você.
+            </p>
+
+            <button class="primary-button" id="startButton">
+                Entre no nosso mundinho
+                <span>♡</span>
+            </button>
+
+            <span class="welcome-footer">
+                Made with love, just for you.
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- Conteúdo principal -->
+    <main id="mainContent" class="hidden">
+
+        <!-- Navegação -->
+        <nav class="navbar">
+
+            <a href="#home" class="logo">♡ us.</a>
+
+            <div class="nav-links">
+                <a href="#counter">Our time</a>
+                <a href="#story">Our story</a>
+                <a href="#letter">Our letter</a>
+                <a href="#reasons">Reasons</a>
+            </div>
+
+        </nav>
+
+
+        <!-- Hero -->
+        <section class="hero section" id="home">
+
+            <span class="section-label">A SPECIAL LITTLE DATE</span>
+
+            <h2>
+                Em todos os Universos,<br>
+                <span>eu escolheria você</span>
+            </h2>
+
+            <p>
+                E pensar que tudo começou com uma simples conversa...
+            </p>
+
+            <a href="#counter" class="scroll-link">
+                Continue explorando ↓
+            </a>
+
+        </section>
+
+
+        <!-- Contador -->
+        <section class="section counter-section" id="counter">
+
+            <span class="section-label">OUR TIME TOGETHER</span>
+
+            <h2>O tempo passa, mas meu amor por você só cresce.</h2>
+
+            <p class="section-description">
+                Cada segundo ao seu lado é uma memória que quero guardar.
+            </p>
+
+            <div class="counter-container">
+
+                <div class="counter-item">
+                    <span id="months">00</span>
+                    <small>Meses</small>
+                </div>
+
+                <div class="counter-item">
+                    <span id="days">00</span>
+                    <small>Dias</small>
+                </div>
+
+                <div class="counter-item">
+                    <span id="hours">00</span>
+                    <small>Horas</small>
+                </div>
+
+                <div class="counter-item">
+                    <span id="minutes">00</span>
+                    <small>Minutos</small>
+                </div>
+
+                <div class="counter-item">
+                    <span id="seconds">00</span>
+                    <small>Segundos</small>
+                </div>
+
+            </div>
+
+            <div class="counter-message">
+                <span>♡</span>
+                E isso é só o começo da nossa história.
+            </div>
+
+        </section>
+
+
+        <!-- Linha do tempo -->
+        <section class="section story-section" id="story">
+
+            <span class="section-label">OUR STORY</span>
+
+            <h2>Pequenos momentos, grandes significados.</h2>
+
+            <p class="section-description">
+                Algumas datas que tornaram nossa história especial.
+            </p>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <span class="timeline-date">O COMEÇO</span>
+                        <h3>Onde tudo começou ♡</h3>
+                        <p>
+                            Foi ali que nossos caminhos começaram
+                            a se cruzar. E eu nem imaginava tudo
+                            que ainda estava por vir. Em um simples "evento" da escola, sobre a Festa Junina. Quando me chamaram para amarrar umas bandeirolas na rampa ao lado da bliblioteca kkkk
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <span class="timeline-date">A SPECIAL MOMENT</span>
+                        <h3>Nosso primeiro momento especial</h3>
+                        <p>
+                            Um daqueles momentos que ficam guardados
+                            na memória e que eu gostaria de reviver. Todos os Dias com voce são especiais. Mas um que eu sempre vou lembrar é o dia 21/08. A data do nosso primeira beijo
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <span class="timeline-date">THE DAY</span>
+                        <h3>O dia em que nos tornamos nós.</h3>
+                        <p>
+                            O começo oficial da nossa história.
+                            Um dos dias mais especiais da minha vida. Dia 08 de setembro, depois do diacho daquele desfile que a escola sempre inventa de colocar, eu fui desfilar pelo skate (ate hoje a escola nunca me cobrou declaração disso) e voce pela escola. E depois que eu terminei de desfilar, eu fui te acompanhar no desfile
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <span class="timeline-date">TODAY</span>
+                        <h3>Dois meses de nós! ♡</h3>
+                        <p>
+                            Dois meses de carinho, risadas,
+                            descobertas e muitos motivos para
+                            continuar escolhendo você. Embora eu sinta raiva (as vezes) e tristeza também, eu te amo muitão assim Oh
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Carta -->
+        <section class="section letter-section" id="letter">
+
+            <span class="section-label">A LETTER FOR YOU</span>
+
+            <h2>Algumas palavras vindas do coração.</h2>
+
+            <p class="section-description">
+                Preparei uma cartinha especialmente para você.
+            </p>
+
+            <div class="envelope-container">
+
+                <div class="envelope" id="envelope">
+
+                    <div class="envelope-back"></div>
+
+                    <div class="letter-paper">
+                        <span class="letter-heart">♡</span>
+                        <p>To my favorite person.</p>
+                    </div>
+
+                    <div class="envelope-front"></div>
+
+                    <div class="envelope-flap"></div>
+
+                </div>
+
+            </div>
+
+            <button class="secondary-button" id="openLetter">
+                Abrir minha cartinha ♡
+            </button>
+
+            <div class="letter-content hidden" id="letterContent">
+
+                <h3>Mozii,</h3>
+
+                <p>
+                    Hoje (no caso dia 08/11, sorry enviei atrasado) completamos dois meses de namoro, e eu
+                    queria encontrar uma maneira especial de
+                    demonstrar o quanto você significa para mim. (sei nem se esse site vai funcionar aiai)
+                </p>
+
+                <p>
+                    Talvez dois meses pareçam pouco tempo para
+                    algumas pessoas, mas para mim são dois meses
+                    cheios de momentos, sentimentos e lembranças
+                    que quero levar comigo.
+                </p>
+
+                <p>
+                    Obrigado por fazer parte da minha vida,
+                    por cada sorriso, cada conversa e por todos
+                    os pequenos detalhes que tornam meus dias melhores. (embora eu fique com raiva e triste as vezes. né senhora?)
+                </p>
+
+                <p>
+                    Espero que essa seja apenas uma pequena parte
+                    de uma história muito maior que ainda vamos viver.
+                    E lembre-se, se estiver se sentindo sozinha, voce tem a mim agora. Beijo.
+                </p>
+
+                <p class="letter-signature">
+                    Com todo meu amor,<br>
+                    seu amor.(eu espero, né) ♡
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Playlist -->
+        <section class="section music-section" id="music">
+
+            <span class="section-label">OUR SOUNDTRACK</span>
+
+            <h2>Se nossa história tivesse uma trilha sonora...</h2>
+
+            <p class="section-description">
+                Essa música sempre vai me lembrar você.
+            </p>
+
+            <div class="music-player">
+
+                <div class="vinyl-container" id="vinyl">
+                    <div class="vinyl">
+                        <div class="vinyl-center">♡</div>
+                    </div>
+                </div>
+
+                <div class="music-info">
+                    <span class="music-label">A SONG FOR US</span>
+
+                    <h3 id="songTitle">This is Love</h3>
+
+                    <p id="songArtist">Guns 'N roses</p>
+                </div>
+
+                <!-- Música especial da nossa história -->
+                <audio id="audioPlayer" src="assets/music/our-song.mp3" preload="auto"></audio>
+
+                <div class="music-controls">
+
+                    <button id="playButton" class="play-button" aria-label="Reproduzir música">
+                        ▶
+                    </button>
+
+                    <span id="musicStatus">Clique para ouvir ♡</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Motivos -->
+        <section class="section reasons-section" id="reasons">
+
+            <span class="section-label">100 REASONS WHY I LOVE YOU</span>
+
+            <h2>Existem infinitos motivos para amar você.</h2>
+
+            <p class="section-description">
+                Aqui estão alguns deles.
+            </p>
+
+            <div class="reasons-grid" id="reasonsGrid">
+
+                <!-- Os cartões serão criados pelo JavaScript -->
+
+            </div>
+
+            <p class="reasons-footer">
+                E ainda existem tantos outros motivos... ♡
+            </p>
+
+        </section>
+
+
+        <!-- Surpresa final -->
+        <section class="section surprise-section" id="surprise">
+
+            <span class="section-label">ONE MORE THING</span>
+
+            <div class="surprise-heart">♡</div>
+
+            <h2>Achou que tinha acabado?</h2>
+
+            <p>
+                Ainda tenho uma última coisinha para você.
+            </p>
+
+            <button class="primary-button" id="surpriseButton">
+                Descobrir surpresa
+                <span>♡</span>
+            </button>
+
+            <div class="surprise-message hidden" id="surpriseMessage">
+
+                <h3>Eu escolheria você. Sempre. ♡</h3>
+
+                <p>
+                    Se eu pudesse voltar no tempo e viver tudo
+                    novamente, ainda escolheria conhecer você,
+                    me apaixonar por você e construir essa história
+                    ao seu lado.
+                </p>
+
+                <p>
+                    Feliz dois meses de namoro, meu amor.
+                </p>
+
+                <span class="final-heart">♥</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- Rodapé -->
+        <footer class="footer">
+
+            <p>Made with love, just for you. ♡</p>
+
+            <span>Our Little Universe · 2026</span>
+
+        </footer>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/music.js"></script>
+    <script src="assets/js/letter.js"></script>
+    <script src="assets/js/reasons.js"></script>
+    <script src="assets/js/surprise.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
