@@ -1,0 +1,117 @@
+
+/* ==============================
+   RESPONSIVE DESIGN
+================================ */
+
+/* Tablets */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 10px;
+    }
+
+    .section {
+        padding: 85px 20px;
+    }
+
+    .counter-container {
+        gap: 12px;
+    }
+
+    .counter-item {
+        width: 105px;
+    }
+
+    .reasons-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Celulares */
+
+@media (max-width: 480px) {
+
+    .navbar {
+        height: auto;
+        padding: 18px 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .welcome {
+        padding: 20px;
+    }
+
+    .welcome h1 {
+        font-size: 58px;
+    }
+
+    .section {
+        padding: 75px 18px;
+    }
+
+    .section h2 {
+        font-size: 32px;
+    }
+
+    .counter-container {
+        gap: 10px;
+    }
+
+    .counter-item {
+        width: 90px;
+        padding: 20px 5px;
+    }
+
+    .counter-item span {
+        font-size: 27px;
+    }
+
+    .timeline-item {
+        padding-left: 30px;
+    }
+
+    .timeline-card {
+        padding: 20px;
+    }
+
+    .letter-content {
+        padding: 25px;
+    }
+
+    .reasons-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .reason-card {
+        min-height: 135px;
+        padding: 20px 10px;
+    }
+
+    .reason-card p {
+        font-size: 15px;
+    }
+
+    .surprise-message {
+        padding: 25px;
+    }
+
+}
